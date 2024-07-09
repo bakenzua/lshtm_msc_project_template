@@ -5,6 +5,13 @@ The results (either positive or negative) of the study should be explained in a 
 - Tables and figures should be included where appropriate, with explanatory legends.
 - In the case of laboratory studies, not every experiment or piece of work undertaken needs to be included.
 
+```{r}
+library(ggplot2)
+ggplot(diamonds, aes(x = carat, y = price, color=clarity)) +
+  geom_point(alpha=0.4)
+```
+
+
 Lorem Ipsum
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
