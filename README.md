@@ -38,7 +38,7 @@ Extra care should be taken with the `output-file` option as this does not compil
 
 ``` yaml
 # edit line below...
-  output-file: "[Candidate Number]_[MSc]_[Year of Submission]_Project.pdf"
+  output-file: "[Candidate Number]_[MSc]_[Year of Submission]_Project"
 ```
 
 Replacing

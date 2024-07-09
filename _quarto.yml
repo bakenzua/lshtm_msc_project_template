@@ -16,7 +16,7 @@ book:
     - references.qmd
     - appendices.qmd
   # edit line below...
-  output-file: "[Candidate Number]_[MSc]_[Year of Submission]_Project.pdf"
+  output-file: "[Candidate Number]_[MSc]_[Year of Submission]_Project"
 
 bibliography: references.bib
 csl: the-lancet.csl
