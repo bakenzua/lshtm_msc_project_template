@@ -33,9 +33,7 @@ project-length: "Standard" # Extended (MSc IID only)
 
 format:
   pdf:
-    # include-in-header:
-    #   - text: |
-    #       \setlength{\beforechapskip}{3pt}
+    include-in-header: chapskip.tex
     keep-tex: false
     documentclass: scrreprt
     toc: true

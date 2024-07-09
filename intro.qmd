@@ -6,7 +6,7 @@
 >
 > -   The Introduction should finish by describing the gap in knowledge that your aims and objectives will address.
 
-# Main Report – Aims and Objectives
+# Aims and Objectives
 
 > You should include a concise statement of your project report’s Aims (the overall goal of the work) and Objectives (what you hoped to be achieved during the project work itself). This section should normally consist of just a few lines. If your project has involved primary research, then it will be appropriate to indicate the specific research question or hypothesis addressed.
 
