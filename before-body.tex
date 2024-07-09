@@ -1,0 +1,30 @@
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+$if(title)$
+\cleardoublepage
+\thispagestyle{empty}
+\begin{flushright}
+\includegraphics[width=11cm]{img/lshtm_logo_small.jpg}
+\end{flushright}
+{\centering
+\hbox{}\vskip 0cm plus 1fill
+{\Large MSc Project Report $academic-year$ \par}
+\vspace{6ex}
+{\Huge\bfseries $title$ \par}
+\vspace{6ex}
+{\Large Candidate Number: $candidate-number$ \par}
+\vspace{12ex}
+{\small Page count:  $page-count$ \par}
+\vspace{3ex}
+{\small Project length: $project-length$ \par}
+\vspace{6ex}
+{\bfseries\large Submitted in part fulfilment of the requirements for the degree of MSc in $msc-course$ \par}
+\vspace{3ex}
+{\bfseries\large Date of submission:  $date$ \par}
+\vspace{12ex}
+}
+$endif$
+%\setlength{\beforechapskip}{20pt}
+\let\mainmatterreal\mainmatter
+\let\mainmatter\relax
