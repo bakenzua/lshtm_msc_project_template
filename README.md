@@ -83,7 +83,7 @@ The project includes the following quarto files that are applicable for differen
 
 Please refer to the \[Quarto documentation\](https://quarto.org/docs/guide/) for guidance on incorporating workings and write up into these files.
 
-The easiest way to compile the template as a pdf is via the render button in RStudio!
+The easiest way to compile the template to a pdf, is via the render button in RStudio.
 
 ## Citations and References
 
