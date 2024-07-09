@@ -1,8 +1,9 @@
 # lshtm_msc_project_template
 
-The goal of lshtm_msc_project_template is to provide a template [Quarto](https://quarto.org) Book project for a MSc project at [LSHTM](lshtm.ac.uk)
+The goal of lshtm_msc_project_template is to provide a template [Quarto](https://quarto.org) book for a MSc project at [LSHTM](lshtm.ac.uk)
 
-It provides a title page, with all the required components configurable through `_quarto.yml`
+It provides a title page, with all the required components configurable through `_quarto.yml`, and a framework for writing up various sections of a project.
+
 
 ## Install
 
