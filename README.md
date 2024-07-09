@@ -4,7 +4,6 @@ The goal of lshtm_msc_project_template is to provide a template [Quarto](https:/
 
 It provides a title page, with all the required components configurable through `_quarto.yml`, and a framework for writing up various sections of a project.
 
-
 ## Install
 
 Either clone this git repository:
@@ -82,8 +81,19 @@ The project includes the following quarto files that are applicable for differen
 
 -   appendices.qmd
 
+Please refer to the \[Quarto documentation\](https://quarto.org/docs/guide/) for guidance on incorporating workings and write up into these files.
+
+The easiest way to compile the template as a pdf is via the render button in RStudio!
+
 ## Citations and References
 
-The `references.bib` file is a bibliography file as [described in Quarto documentation](https://quarto.org/docs/authoring/citations.html#bibliography-files). This can be exported from a reference manager, e.g. [Zotero](https://www.zotero.org/). To cite an article from the bibliography in the text,  use @ followed by the citation identifier, as per the standard pandoc [citation syntax](https://quarto.org/docs/authoring/citations.html#sec-citations). An example is given in `intro.qmd`. Cited articles will then automatically be compiled to the references page.
+The `references.bib` file is a bibliography file as [described in Quarto documentation](https://quarto.org/docs/authoring/citations.html#bibliography-files). This can be exported from a reference manager, e.g. [Zotero](https://www.zotero.org/). To cite an article from the bibliography in the text, use \@ followed by the citation identifier, as per the standard pandoc [citation syntax](https://quarto.org/docs/authoring/citations.html#sec-citations). An example is given in `intro.qmd`. Cited articles will then automatically be compiled to the references page.
 
-The `the-lancet.csl` file is a [citation style](https://citationstyles.org/) definition which uses the styling required by The Lancet. Alternative citation and reference styles can be downloaded from [https://github.com/citation-style-language/styles](https://github.com/citation-style-language/styles). The `csl: the-lancet.csl` field of `_quarto.yml` should be amended accordingly.
+The `the-lancet.csl` file is a [citation style](https://citationstyles.org/) definition which uses the styling required by The Lancet. Alternative citation and reference styles can be downloaded from <https://github.com/citation-style-language/styles>. The `csl: the-lancet.csl` field of `_quarto.yml` should be amended accordingly.
+
+## Attribution
+
+-   This template was inspired by the [latex template for LSHTM MSc projects](https://www.overleaf.com/latex/templates/lshtm-msc-project-template/ddvdhnnrcwbz) by Robert Greener.
+-   It borrows heavily from [this](https://cameronpatrick.com/post/2023/07/quarto-thesis-formatting) post by Patrick Cameron.
+-   The LSHTM Logo (`lshtm_logo.jpg` and `lshtm_logo_small.jpg`) remains property of the London School of Hygiene and Tropical Medicine
+    -   Everything else is MIT licensed
