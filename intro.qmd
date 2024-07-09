@@ -1,3 +1,5 @@
+\pagenumbering{arabic}
+
 # Introduction
 
 > The start of the main content of your project report should be presented as a formal introductory section – which might typically account for between 10% and 30% of the overall word count.
