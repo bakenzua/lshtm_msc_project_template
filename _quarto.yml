@@ -19,7 +19,7 @@ book:
   output-file: "[Candidate Number]_[MSc]_[Year of Submission]_Project"
 
 bibliography: references.bib
-csl: the-lancet.csl
+csl: vancouver.csl
 
 ################################################
 #   Title page metadata - edit accordingly     #

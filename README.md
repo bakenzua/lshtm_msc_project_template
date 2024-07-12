@@ -91,7 +91,7 @@ The easiest way to compile the template to a pdf, is via the render button in RS
 
 The `references.bib` file is a bibliography file as [described in Quarto documentation](https://quarto.org/docs/authoring/citations.html#bibliography-files). This can be exported from a reference manager, e.g. [Zotero](https://www.zotero.org/). To cite an article from the bibliography in the text, use \@ followed by the citation identifier, as per the standard pandoc [citation syntax](https://quarto.org/docs/authoring/citations.html#sec-citations). An example is given in `intro.qmd`. Cited articles will then automatically be compiled to the references page.
 
-The `the-lancet.csl` file is a [citation style](https://citationstyles.org/) definition which uses the styling required by The Lancet. Alternative citation and reference styles can be downloaded from <https://github.com/citation-style-language/styles>. The `csl: the-lancet.csl` field of `_quarto.yml` should be amended accordingly.
+The `vancouver.csl` file is a [citation style](https://citationstyles.org/) definition which uses the Vancouver referencing and citation system. Alternative citation and reference styles can be downloaded from <https://github.com/citation-style-language/styles>. The `csl: vancouver.csl` field of `_quarto.yml` should be amended accordingly.
 
 ## Attribution
 
