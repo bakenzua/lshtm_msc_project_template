@@ -81,7 +81,7 @@ The project includes the following quarto files that are applicable for differen
 
 -   appendices.qmd
 
-Please refer to the \[Quarto documentation\](https://quarto.org/docs/guide/) for guidance on incorporating workings and write up into these files.
+Please refer to the [Quarto documentation](https://quarto.org/docs/guide/) for guidance on incorporating workings and write up into these files.
 
 Note that each of the files is rendered within it's own R environment, meaning data frames and functions are not passed from e.g. `methods.qmd` to `results.qmd`. If there is a need for common objects between files, some custom caching or common set-up code must be implemented. One method might be to implement a `{targets}` pipeline with this book as a quarto target, which loads parent objects as required. Alternatively concatenate different chapters into one file, i.e. write up methods and results section in the same `qmd` file
 
