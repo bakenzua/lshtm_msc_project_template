@@ -4,6 +4,8 @@ The goal of lshtm_msc_project_template is to provide a template [Quarto](https:/
 
 It provides a title page, with all the required components configurable through `_quarto.yml`, and a framework for writing up various sections of a project.
 
+As a demonstration the quarto templates here have been rendered to a pdf file in [_book/[Candidate-Number]_[MSc]_[Year-of-Submission]_Project.pdf](https://github.com/bakenzua/lshtm_msc_project_template/raw/master/_book/%5BCandidate-Number%5D_%5BMSc%5D_%5BYear-of-Submission%5D_Project.pdf)
+
 ## Install
 
 Either clone this git repository:
@@ -99,3 +101,13 @@ The `vancouver.csl` file is a [citation style](https://citationstyles.org/) defi
 -   It borrows heavily from [this](https://cameronpatrick.com/post/2023/07/quarto-thesis-formatting) post by Patrick Cameron.
 -   The LSHTM Logo (`lshtm_logo.jpg` and `lshtm_logo_small.jpg`) remains property of the London School of Hygiene and Tropical Medicine
     -   Everything else is MIT licensed
+
+## Thanks
+
+I would love to know if you find this project useful, please star the repository or [buy me a coffee](https://buymeacoffee.com/bakenzua).
+
+If you have any issues or find any faults with this repo, please (in order of preference 😃) 
+
+-   Fix it and submit a pull request
+-   Raise an issue above
+-   Contact me directly
